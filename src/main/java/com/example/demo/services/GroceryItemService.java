@@ -1,9 +1,11 @@
 package com.example.demo.services;
 
-import com.example.grocery.entity.GroceryItem;
-import com.example.grocery.repository.GroceryItemRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.demo.entities.GroceryItem;
+import com.example.demo.repositories.GroceryItemRepository;
 
 import java.util.List;
 
